@@ -47,15 +47,12 @@ function Signup() {
   };
   return (
     <>
-      <div className="flex h-screen items-center justify-center">
+      <div className="flex h-screen items-center justify-center bg-gray-800">
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="border border-white px-6 py-2 rounded-md space-y-3 w-96"
         >
-          <h1 className="text-2xl text-center">
-            Chat<span className="text-green-500 font-semibold">App</span>
-          </h1>
-          <h2 className="text-xl text-white font-bold">Signup</h2>
+          <h1 className="text-xl text-center text-white font-bold">Ready to dive in? <br/> Let’s get you set up!</h1>
           <br />
           {/* Fullname */}
           <label className="input input-bordered flex items-center gap-2">
@@ -162,7 +159,7 @@ function Signup() {
 
           {/* Text & Button */}
           <div className="flex justify-between">
-            <p>
+            <p className="text-white">
               Have an account?
               <Link
                 to="/login"
@@ -174,7 +171,7 @@ function Signup() {
             <input
               type="submit"
               value="Signup"
-              className="text-white bg-green-500 px-2 py-1 cursor-pointer rounded-lg"
+              className="text-white bg-blue-500 px-2 py-1 cursor-pointer rounded-lg"
             />
           </div>
         </form>

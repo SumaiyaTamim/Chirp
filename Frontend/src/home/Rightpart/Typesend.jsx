@@ -19,10 +19,10 @@ function Typesend() {
         <div className=" w-[70%] mx-4">
           <input
             type="text"
-            placeholder="Type here"
+            placeholder="     Type here"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="border border-gray-700 rounded-xl outline-none mt-1 px-4 py-3 w-full"
+            className="border border-gray-700 rounded-xl outline-none mt-1 py-1 w-full"
           />
         </div>
         <button>

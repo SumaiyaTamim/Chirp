@@ -22,7 +22,7 @@ function Search() {
     }
   };
   return (
-    <div className=" h-[10vh]">
+    <div className=" h-[6-vh]">
       <div className="px-6 py-4">
         <form onSubmit={handleSubmit}>
           <div className="flex space-x-3">
@@ -36,7 +36,7 @@ function Search() {
               />
             </label>
             <button>
-              <FaSearch className="text-5xl p-2 hover:bg-gray-600 rounded-full duration-300" />
+              <FaSearch className="text-5xl p-3 hover:bg-gray-600 rounded-full duration-300" />
             </button>
           </div>
         </form>
