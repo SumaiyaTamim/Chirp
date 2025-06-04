@@ -8,10 +8,12 @@ A real-time one-to-one messaging platform with user authentication.
 ## Technologies Used
 **Frontend**  
 - React.js  
-- Tailwind CSS  
+- Tailwind CSS
+  
 **Backend**  
 - Node.js  
 - Express.js  
-- Socket.io  
+- Socket.io
+  
 **Database**  
 - MongoDB  
